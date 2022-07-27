@@ -20,11 +20,7 @@
 
 1. Clone the repository from GitHub
 1. Install `node.js`
-1. Run `npm install` to install dependencies. Dependencies include mysql, console.table, express, inquirer, ........
-1. Run `mysql -u root -p` to start the database connection. 
-1. Updated `connection.js` file with your own mysql user password. 
-1. Create the database by running the command: `CREATE DATABASE tech_blog_db`.
-1. Seed the database by running the command: `source db/seeds.sql`.
+1. Run `npm install` to install dependencies. Dependencies include Express.js for routing, a MongoDB database, and the Mongoose ODM.
 1. Run `npm start` to start the web server and connect
 
 ## User Story
