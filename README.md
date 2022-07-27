@@ -20,6 +20,7 @@
 
 1. Clone the repository from GitHub
 1. Install `node.js`
+1. Install `MongoDB`
 1. Run `npm install` to install dependencies. Dependencies include Express.js for routing, a MongoDB database, and the Mongoose ODM.
 1. Run `npm start` to start the web server and connect
 
