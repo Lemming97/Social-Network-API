@@ -32,7 +32,7 @@ const ThoughtSchema = new Schema({
     id: false
 });
 
-// Reaction is a sub-document of Thought
+// Reaction is a sub-document of Thought so there is no need to create a model for it 
 const ReactionSchema = new Schema({
     reactionId: {
         type: Schema.Types.ObjectId,
