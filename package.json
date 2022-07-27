@@ -1,0 +1,26 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "18. NoSQL Challenge: Social Network API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lemming97/Social-Network-API.git"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.22"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lemming97/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/Lemming97/Social-Network-API#readme"
+}
