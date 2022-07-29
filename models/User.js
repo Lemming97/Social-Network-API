@@ -2,6 +2,7 @@ const {
     Schema,
     model
 } = require('mongoose');
+const moment = require('moment');
 
 const UserSchema = new Schema({
     username: {
@@ -14,29 +15,31 @@ const UserSchema = new Schema({
         type: String,
         unique: true,
         required: true,
-        // match a valid email address
-        match: [/.+@.+\..+/]
+        match: [/.+\@.+\..+/]
     },
-    // sub-document for thoughts 
-    thoughts: [{
-        type: Schema.Types.ObjectId,
-        // referring to the thought document model 
-        ref: 'Thought'
-    }],
-    friends: [{
-        type: Schema.Types.ObjectId,
-        // referring to the user document model 
-        ref: 'User'
-    }]
-}, {
+    thoughts: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'Thought'
+        }
+    ],
+    friends: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'User'
+        }
+    ]
+},
+{ 
     toJSON: {
         virtuals: true,
         getters: true
     },
     id: false
-});
+}
+);
 
-//Create a virtual called friendCount that retrieves the length of the user's friends array field on query.
+// Virtual property friendCount
 UserSchema.virtual('friendCount').get(function () {
     return this.friends.length;
 });
