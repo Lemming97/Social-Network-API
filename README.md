@@ -11,8 +11,7 @@
 * [User Story](#user-story)
 * [Acceptance Criteria](#acceptance-criteria)
 * [Screenshots](#screenshots)
-* [Link](#link)
-* [Usage](#usage)
+* [Video](#video)
 * [Built With](#built-with)
 
 
@@ -45,3 +44,21 @@ THEN I am able to successfully create, update, and delete users and thoughts in 
 WHEN I test API POST and DELETE routes in Insomnia
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 ```
+
+
+## Screenshots 
+
+
+
+## Video
+
+
+
+## Built With
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [express](https://www.npmjs.com/package/express)
+* [moment](https://www.npmjs.com/package/moment)
+* [mongoose](https://www.npmjs.com/package/mongoose)
+
+
+
