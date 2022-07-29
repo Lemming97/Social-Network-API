@@ -15,7 +15,7 @@ const UserSchema = new Schema({
         unique: true,
         required: true,
         // match a valid email address
-        match: [/.+@.+\..+/, 'Please enter a valid e-mail address']
+        match: [/.+@.+\..+/]
     },
     // sub-document for thoughts 
     thoughts: [{
@@ -41,6 +41,8 @@ UserSchema.virtual('friendCount').get(function () {
     return this.friends.length;
 });
 
+// Creates User model with Schema
 const User = model('User', UserSchema);
 
+// Exports User model
 module.exports = User;
