@@ -74,6 +74,15 @@ Video walk-through of Thoughts Routes:
 https://user-images.githubusercontent.com/49573760/182527194-3f401eed-3cde-4cd6-832f-c2283c0ce0b3.mov
 
 
+Video walk-through of Reactions Routes:
+* `POST` to create a reaction 
+* `DELETE` to pull and remove a reaction
+
+
+Video walk-through of Reactions Routes:
+* `POST` to add a new friend to a user's friend list
+* `DELETE` to remove a friend from a user's friend list
+
 
 ## Built With
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
