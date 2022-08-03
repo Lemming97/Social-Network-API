@@ -74,18 +74,22 @@ Video walk-through of Thoughts Routes:
 https://user-images.githubusercontent.com/49573760/182527194-3f401eed-3cde-4cd6-832f-c2283c0ce0b3.mov
 
 
+Video walk-through of Friends Routes:
+* `POST` to add a new friend to a user's friend list
+* `DELETE` to remove a friend from a user's friend list
+
+https://user-images.githubusercontent.com/49573760/182528948-8191e6d0-9e40-436d-9ae2-faededf32234.mov
+
+
 Video walk-through of Reactions Routes:
 * `POST` to create a reaction 
 * `DELETE` to pull and remove a reaction
 
 
 
-https://user-images.githubusercontent.com/49573760/182528948-8191e6d0-9e40-436d-9ae2-faededf32234.mov
+https://user-images.githubusercontent.com/49573760/182531711-f4c6d817-82de-49f8-81c0-21925f94f479.mov
 
 
-Video walk-through of Reactions Routes:
-* `POST` to add a new friend to a user's friend list
-* `DELETE` to remove a friend from a user's friend list
 
 
 
