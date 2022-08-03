@@ -63,6 +63,16 @@ Video walk-through of User Routes:
 https://user-images.githubusercontent.com/49573760/182526392-f5719bfa-fd3d-4506-ae2f-ff879ab93d1f.mov
 
 
+Video walk-through of Thoughts Routes:
+* GET to get all thoughts
+* GET to get a single thought by its _id
+* POST to create a new thought
+* PUT to update a thought by its _id
+* DELETE to remove a thought by its _id
+
+
+https://user-images.githubusercontent.com/49573760/182527194-3f401eed-3cde-4cd6-832f-c2283c0ce0b3.mov
+
 
 
 ## Built With
