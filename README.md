@@ -53,12 +53,12 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ## Video
 
 
-Video walkthrough of User Routes:
-* GET all users
-* GET a single user by its _id 
-* POST a new user
-* PUT to update a user by its _id
-* DELETE to remove user by its _id
+Video walk-through of User Routes:
+* `GET` all users
+* `GET` a single user by its `_id` 
+* `POST` a new user
+* `PUT` to update a user by its `_id`
+* `DELETE` to remove user by its `_id`
 
 https://user-images.githubusercontent.com/49573760/182526392-f5719bfa-fd3d-4506-ae2f-ff879ab93d1f.mov
 
