@@ -79,9 +79,14 @@ Video walk-through of Reactions Routes:
 * `DELETE` to pull and remove a reaction
 
 
+
+https://user-images.githubusercontent.com/49573760/182528948-8191e6d0-9e40-436d-9ae2-faededf32234.mov
+
+
 Video walk-through of Reactions Routes:
 * `POST` to add a new friend to a user's friend list
 * `DELETE` to remove a friend from a user's friend list
+
 
 
 ## Built With
